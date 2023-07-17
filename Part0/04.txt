@@ -1,0 +1,17 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+server-->browser: HTTP 302 /exampleapp/notes
+
+note over browser: reordering and reloading of the page
+browser->server: HTTP GET /exampleapp/notes
+
+server-->browser: HTML code
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+server-->browser: main.css
+
+browser->server: HTTP GET HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+
+server-->browser: main.js
+
