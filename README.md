@@ -1,2 +1,2 @@
-# fullstackopen
-fullstackopen exercises
+# Fullstackopen
+Fullstackopen exercises
